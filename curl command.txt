@@ -1,0 +1,5 @@
+curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=[BURAYI SİL]&version=2018-03-19"
+
+
+
+curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://pbs.twimg.com/profile_images/1241898341144891394/ewkSb5MW_400x400.jpg&version=2018-03-19"

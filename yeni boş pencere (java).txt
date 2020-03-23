@@ -1,0 +1,33 @@
+package swing;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class Swing1 {
+
+	
+	public static void main(String[] args) {
+		
+		JFrame jf=new JFrame();
+		jf.setTitle("ilk pencerem");
+		jf.setSize(500,600);
+		jf.setLocation(100,200);
+		
+		jf.getContentPane().setLayout(new FlowLayout());
+		
+		JTextField text1=new JTextField(10);
+		JButton buton1=new JButton("Browse !");
+		jf.getContentPane().add(text1);
+		jf.getContentPane().add(buton1);
+		
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		jf.setVisible(true);
+		
+		
+		
+	}
+	
+}

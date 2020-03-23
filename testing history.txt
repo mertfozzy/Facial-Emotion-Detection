@@ -1,0 +1,315 @@
+Microsoft Windows [Version 10.0.18362.356]
+(c) 2019 Microsoft Corporation. Tüm hakları saklıdır.
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/BdzLPG&version=2018-03-19"
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "circuit board",
+                            "score": 0.578,
+                            "type_hierarchy": "/electrical device/computer circuit/circuit board"
+                        },
+                        {
+                            "class": "computer circuit",
+                            "score": 0.755
+                        },
+                        {
+                            "class": "electrical device",
+                            "score": 0.757
+                        },
+                        {
+                            "class": "disk controller",
+                            "score": 0.553,
+                            "type_hierarchy": "/controller/disk controller"
+                        },
+                        {
+                            "class": "controller",
+                            "score": 0.558
+                        },
+                        {
+                            "class": "central processing unit",
+                            "score": 0.535
+                        },
+                        {
+                            "class": "PC board",
+                            "score": 0.501,
+                            "type_hierarchy": "/electrical device/computer circuit/PC board"
+                        },
+                        {
+                            "class": "CPU board",
+                            "score": 0.5,
+                            "type_hierarchy": "/electrical device/computer circuit/CPU board"
+                        },
+                        {
+                            "class": "electronic equipment",
+                            "score": 0.6
+                        },
+                        {
+                            "class": "memory device",
+                            "score": 0.599
+                        },
+                        {
+                            "class": "microchip",
+                            "score": 0.592
+                        },
+                        {
+                            "class": "jade green color",
+                            "score": 0.838
+                        },
+                        {
+                            "class": "emerald color",
+                            "score": 0.787
+                        }
+                    ]
+                }
+            ],
+            "source_url": "https://ibm.biz/BdzLPG",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/640px-IBM_VGA_90X8941_on_PS55.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "custom_classes": 0
+}
+
+C:\Users\ogrenci>https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=facial emotions" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/Bd2NPs&version=2018-03-19"
+{
+    "images": [
+        {
+            "source_url": "https://ibm.biz/Bd2NPs",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg",
+            "error": {
+                "code": 404,
+                "description": "No classifiers found"
+            }
+        }
+    ],
+    "images_processed": 1
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=facial emotions" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/Bd2NPs&version=2018-03-19"
+{
+    "images": [
+        {
+            "source_url": "https://ibm.biz/Bd2NPs",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg",
+            "error": {
+                "code": 404,
+                "description": "No classifiers found"
+            }
+        }
+    ],
+    "images_processed": 1
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=facial emotions" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/Bd2NPs&version=2018-03-19"
+{
+    "images": [
+        {
+            "source_url": "https://ibm.biz/Bd2NPs",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg",
+            "error": {
+                "code": 404,
+                "description": "No classifiers found"
+            }
+        }
+    ],
+    "images_processed": 1
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=ANGRY" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/Bd2NPs&version=2018-03-19"
+{
+    "images": [
+        {
+            "source_url": "https://ibm.biz/Bd2NPs",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg",
+            "error": {
+                "code": 404,
+                "description": "No classifiers found"
+            }
+        }
+    ],
+    "images_processed": 1
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/BdzLPG&version=2018-03-19"
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "circuit board",
+                            "score": 0.578,
+                            "type_hierarchy": "/electrical device/computer circuit/circuit board"
+                        },
+                        {
+                            "class": "computer circuit",
+                            "score": 0.755
+                        },
+                        {
+                            "class": "electrical device",
+                            "score": 0.757
+                        },
+                        {
+                            "class": "disk controller",
+                            "score": 0.553,
+                            "type_hierarchy": "/controller/disk controller"
+                        },
+                        {
+                            "class": "controller",
+                            "score": 0.558
+                        },
+                        {
+                            "class": "central processing unit",
+                            "score": 0.535
+                        },
+                        {
+                            "class": "PC board",
+                            "score": 0.501,
+                            "type_hierarchy": "/electrical device/computer circuit/PC board"
+                        },
+                        {
+                            "class": "CPU board",
+                            "score": 0.5,
+                            "type_hierarchy": "/electrical device/computer circuit/CPU board"
+                        },
+                        {
+                            "class": "electronic equipment",
+                            "score": 0.6
+                        },
+                        {
+                            "class": "memory device",
+                            "score": 0.599
+                        },
+                        {
+                            "class": "microchip",
+                            "score": 0.592
+                        },
+                        {
+                            "class": "jade green color",
+                            "score": 0.838
+                        },
+                        {
+                            "class": "emerald color",
+                            "score": 0.787
+                        }
+                    ]
+                }
+            ],
+            "source_url": "https://ibm.biz/BdzLPG",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/640px-IBM_VGA_90X8941_on_PS55.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "custom_classes": 0
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/BdzLPG&version=2018-03-19"https://ibm.biz/BdzLPG&version=2018-03-19
+{
+    "error": {
+        "code": 400,
+        "description": "Please supply a date version parameter, like '&version=2016-05-17'.",
+        "error_id": "parameter_error"
+    },
+    "images_processed": 0
+}
+'version' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ogrenci>
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://ibm.biz/Bd2NPs&version=2018-03-19"
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "DefaultCustomModel_2030462599",
+                    "name": "Default Custom Model",
+                    "classes": [
+                        {
+                            "class": "SAD",
+                            "score": 0.668
+                        }
+                    ]
+                }
+            ],
+            "source_url": "https://ibm.biz/Bd2NPs",
+            "resolved_url": "https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "custom_classes": 6
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://www.beykoz.edu.tr/content/data/min_5e5750afa8c10-dsc0780.jpg"
+{
+    "error": {
+        "code": 400,
+        "description": "Please supply a date version parameter, like '&version=2016-05-17'.",
+        "error_id": "parameter_error"
+    },
+    "images_processed": 0
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://www.beykoz.edu.tr/content/data/min_5e5750afa8c10-dsc0780.jpg&version=2018-03-19"
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "DefaultCustomModel_2030462599",
+                    "name": "Default Custom Model",
+                    "classes": [
+                        {
+                            "class": "FRIEND",
+                            "score": 0.895
+                        }
+                    ]
+                }
+            ],
+            "source_url": "https://www.beykoz.edu.tr/content/data/min_5e5750afa8c10-dsc0780.jpg",
+            "resolved_url": "https://www.beykoz.edu.tr/content/data/min_5e5750afa8c10-dsc0780.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "custom_classes": 6
+}
+
+C:\Users\ogrenci>curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://www.beykoz.edu.tr/content/data/5e15af9b5c722-sivil-havacilik-slider.png&version=2018-03-19"
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "DefaultCustomModel_2030462599",
+                    "name": "Default Custom Model",
+                    "classes": [
+                        {
+                            "class": "IRRELEVANT",
+                            "score": 0.537
+                        }
+                    ]
+                }
+            ],
+            "source_url": "https://www.beykoz.edu.tr/content/data/5e15af9b5c722-sivil-havacilik-slider.png",
+            "resolved_url": "https://www.beykoz.edu.tr/content/data/5e15af9b5c722-sivil-havacilik-slider.png"
+        }
+    ],
+    "images_processed": 1,
+    "custom_classes": 6
+}
+
+C:\Users\ogrenci>
