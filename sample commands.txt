@@ -1,0 +1,20 @@
+curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=[BURAYI SİL]&version=2018-03-19"
+
+
+
+CHARLIE HUNNAM HAPPY: curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://upload.wikimedia.org/wikipedia/commons/8/80/Charlie_Hunnam_by_Gage_Skidmore_3.jpg&version=2018-03-19"
+
+
+HENRY CAVILL ANGRY : curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://d2j1wkp1bavyfs.cloudfront.net/wp-content/uploads/2018/09/superman-e1536761873234.jpg&version=2018-03-19"
+
+
+THE DOG : curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-1100x628.jpg&version=2018-03-19"
+
+
+A CAR : curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://upload.wikimedia.org/wikipedia/commons/9/9b/2019_Mercedes-Benz_E220d_SE_Automatic_2.0_Front.jpg&version=2018-03-19"
+
+
+SHY WOMAN : curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://139q1i5joi1qpw8g3nyjezjt-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/shy-woman.jpg&version=2018-03-19"
+
+
+THOR SAD : curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://i.ytimg.com/vi/Hzg59N7QBgI/maxresdefault.jpg&version=2018-03-19"
