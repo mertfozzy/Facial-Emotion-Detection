@@ -1,5 +1,3 @@
-//FED User Interface by Mert Altuntaş
-
 package calling.photo;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -29,7 +27,7 @@ public class Work extends JFrame{
     button.setForeground(Color.GREEN);
     button.setBackground(Color.BLACK);
     button.setFont(new Font("Comic Sans MS", Font.BOLD, 13));
-    button.setBounds(815,484,200,40);
+    button.setBounds(733,464,214,60);
     
     label = new JLabel(); //displaying the picture
     label.setHorizontalAlignment(SwingConstants.CENTER);
@@ -42,13 +40,13 @@ public class Work extends JFrame{
     text1.setText("Enter here..");
     text1.setForeground(Color.WHITE);
     text1.setBackground(Color.BLACK);
-    text1.setBounds(100, 433, 200, 40);
+    text1.setBounds(110, 400, 222, 52);
     
     JButton buton1 = new JButton("Browse a Curl !");
     buton1.setBackground(Color.BLACK);
     buton1.setForeground(Color.GREEN);
     buton1.setFont(new Font("Comic Sans MS", Font.BOLD, 13));
-    buton1.setBounds(100, 484, 200, 40);
+    buton1.setBounds(110, 464, 222, 60);
     
     label2 = new JLabel(); //displaying result of curl command
     label2.setHorizontalAlignment(SwingConstants.CENTER);
@@ -103,7 +101,7 @@ public class Work extends JFrame{
     getContentPane().setLayout(null);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setLocationRelativeTo(null);
-    setSize(1122,617);
+    setSize(1065,585);
     setVisible(true);
     }
      
