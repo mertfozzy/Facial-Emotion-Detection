@@ -23,7 +23,10 @@ public class CurlUtil {
 			result = builder.toString();
 			// System.out.print("EXECUTION RESULT : " + result);
 			
-
+			int begIndex = result.indexOf("classes"); //curl sonucunun kısaltılması
+			int endIndex = result.indexOf("}", begIndex + 8);
+			result = result.substring(begIndex + 12, endIndex + 3);
+			// curl -u "apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA" -F "classifier_ids=DefaultCustomModel_2030462599" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=https://upload.wikimedia.org/wikipedia/commons/8/80/Charlie_Hunnam_by_Gage_Skidmore_3.jpg&version=2018-03-19"
 		} catch (IOException e) {
 			// System.out.print("error");
 			result = "Error : " + e.getMessage();
