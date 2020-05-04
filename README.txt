@@ -30,18 +30,3 @@ b-) If you want to use the photos directly from the file system, you can use the
 The FED will receive updates frequently.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
