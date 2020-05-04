@@ -18,7 +18,7 @@ public class Work extends JFrame{
     
     public Work(){
     super("FED - calling photo test ");
-    setTitle("Facial Emotion Detector v4");
+    setTitle("Facial Emotion Detector v5");
     getContentPane().setBackground(Color.DARK_GRAY);
     
     /* -----------------CHOOSING A PICTURE OPTION------------------- */
@@ -52,7 +52,7 @@ public class Work extends JFrame{
     label2.setHorizontalAlignment(SwingConstants.CENTER);
     label2.setFont(new Font("Tahoma", Font.PLAIN, 20));
     label2.setForeground(Color.WHITE);
-    label2.setBounds(100,11,915,411); 
+    label2.setBounds(132,28,798,352); 
 
     /* ----------------------------------------------------- */
     
@@ -66,7 +66,10 @@ public class Work extends JFrame{
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			String result = CurlUtil.executeCurlCommand(text1.getText().split(" "));
+			
+			String url = text1.getText();
+			String curlCommand = "curl -u \"apikey:BmpffSkPjESnRKDYCoHVKaPQSSHCxrVQU8YS3-WOildA\" -F \"classifier_ids=DefaultCustomModel_2030462599\" \"https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/acfa1ca5-43c1-4b38-9a3d-9eff8477b8f8/v3/classify?url=" + url + "&version=2018-03-19\"";
+			String result = CurlUtil.executeCurlCommand(curlCommand.split(" "));
 			System.out.println("Curl command result : " + result);
 			label2.setText("<html><p style=\"width:900px\">"+result+"</p></html>"); //html code for displaying console result much better
 		}
