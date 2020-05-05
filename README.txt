@@ -11,7 +11,7 @@ FED; yüz ifadesini algılayan ve değerlendiren bir Java programıdır. Tüm da
 3-) Kullanım şekli : 
 
 a-) Herhangi bir görselin internetteki URL adresini "Enter here.." yazan alana yapıştırın ve hemen altındaki "Browse" butonunu kullanın. Sonuç aynı pencere içerisinde class ve score olarak görünecektir.
-b-) Fotoğrafları direkt olarak dosya sisteminden kullanmak isterseniz sağdaki "Browse a Photo" butonunu kullanabilirsiniz. Fotoğraf pencerede çıkacaktır ama işlem yapmayacaktır. (Geliştirme aşamasında)   
+b-) Fotoğrafları direkt olarak dosya sisteminden kullanmak isterseniz sağdaki "Choose a Photo" butonunu kullanabilirsiniz. Fotoğraf pencerede çıkacaktır ama işlem yapmayacaktır. (Geliştirme aşamasında)   
 
 FED sık sık güncelleme alacaktır.
 
@@ -25,7 +25,7 @@ FED; is a Java program that can detect and analyze facial emotions. All the data
 
 3-) Usage : 
 a-) Find any picture's URL adress from Internet, and paste it into textbox ("Enter here.."). Then click the "Browse" button directly below. The result will appear in the same window as class and score.
-b-) If you want to use the photos directly from the file system, you can use the "Browse a Photo" button on the right corner. The photo will appear in the window, but it will not work. (Under Development)
+b-) If you want to use the photos directly from the file system, you can use the "Choose a Photo" button on the right corner. The photo will appear in the window, but it will not work. (Under Development)
 
 The FED will receive updates frequently.
 
