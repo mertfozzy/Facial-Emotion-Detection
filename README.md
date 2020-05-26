@@ -1,5 +1,7 @@
 # Facial-Emotion-Detection
 
+![sample](https://hizliresim.com/cjntJd)
+
 -------------------------------------------------------T U R K I S H---------------------------------------------------------------------
 
 FED; yüz ifadesini algılayan ve değerlendiren bir Java programıdır. Tüm datalar ve kodlar Mert Altuntaş tarafından üretilmiştir.
