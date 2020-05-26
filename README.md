@@ -1,6 +1,6 @@
 # Facial-Emotion-Detection
 
-![sample](https://hizliresim.com/cjntJd)
+![sample](https://github.com/mertfozzy/Facial-Emotion-Detection/blob/master/test%20images/Ek%20A%C3%A7%C4%B1klama%202020-05-26%20160011.jpg?raw=true)
 
 -------------------------------------------------------T U R K I S H---------------------------------------------------------------------
 
