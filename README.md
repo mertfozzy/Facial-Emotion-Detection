@@ -6,11 +6,13 @@
 
 FED; yüz ifadesini algılayan ve değerlendiren bir Java programıdır. Tüm datalar ve kodlar Mert Altuntaş tarafından üretilmiştir.
 
-1-) ".zip" uzantılı proje dosyasını Eclipse IDE içerisine import ederek kullanabilirsiniz.
+1-) Sunum dosyamda demo videosunu bulabilirsiniz.
 
-2-) Ana kodlarım "Work.java" içerisindedir, "CurlUtil.java" içerisinde IBM Watson servisini kullanan cURL komutlarım işlenmektedir.
+2-) ".zip" uzantılı proje dosyasını Eclipse IDE içerisine import ederek kullanabilirsiniz.
 
-3-) Kullanım şekli : 
+3-) Ana kodlarım "Work.java" içerisindedir, "CurlUtil.java" içerisinde IBM Watson servisini kullanan cURL komutlarım işlenmektedir.
+
+4-) Kullanım şekli : 
 
 a-) Herhangi bir görselin internetteki URL adresini "Enter here.." yazan alana yapıştırın ve hemen altındaki "Browse" butonunu kullanın. Sonuç aynı pencere içerisinde class ve score olarak görünecektir.
 
@@ -22,11 +24,13 @@ FED sık sık güncelleme alacaktır.
 
 FED; is a Java program that can detect and analyze facial emotions. All the datas and codes created by Mert Altuntaş.
 
-1-) You can download my project files that spurred a ".zip". Then import it into your Eclipse IDE.
+1-) You can find my Demo in presentation file.
 
-2-) My main codes are in "Work.java", my cURL commands using IBM Watson service are processed in "CurlUtil.java".
+2-) You can download my project files that spurred a ".zip". Then import it into your Eclipse IDE.
 
-3-) Usage : 
+3-) My main codes are in "Work.java", my cURL commands using IBM Watson service are processed in "CurlUtil.java".
+
+4-) Usage : 
 a-) Find any picture's URL adress from Internet, and paste it into textbox ("Enter here.."). Then click the "Browse" button directly below. The result will appear in the same window as class and score.
 
 b-) If you want to use the photos directly from the file system, you can use the "Choose a Photo" button on the right corner. The photo will appear in the window, but it will not work. (Under Development)
