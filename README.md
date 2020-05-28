@@ -6,7 +6,7 @@
 
 FED; yüz ifadesini algılayan ve değerlendiren bir Java programıdır. Tüm datalar ve kodlar Mert Altuntaş tarafından üretilmiştir.
 
-1-) Sunum dosyamda demo videosunu bulabilirsiniz.
+1-) Sunum dosyasında demo videomu bulabilirsiniz.
 
 2-) ".zip" uzantılı proje dosyasını Eclipse IDE içerisine import ederek kullanabilirsiniz.
 
