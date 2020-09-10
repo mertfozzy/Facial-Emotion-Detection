@@ -2,7 +2,7 @@
 
 ![sample](https://github.com/mertfozzy/Facial-Emotion-Detection/blob/master/test%20images/Ek%20A%C3%A7%C4%B1klama%202020-05-26%20160011.jpg?raw=true)
 
-----------------------------------------------------T U R K I S H------------------------------------------------------------------
+---------------------------------------------------T U R K I S H------------------------------------------------------------------
 
 FED; yüz ifadesini algılayan ve değerlendiren bir Java programıdır. Tüm datalar ve kodlar Mert Altuntaş tarafından üretilmiştir.
 
@@ -20,7 +20,7 @@ b-) Fotoğrafları direkt olarak dosya sisteminden kullanmak isterseniz sağdaki
 
 FED sık sık güncelleme alacaktır.
 
-------------------------------------------------------E N G L I S H----------------------------------------------------------------
+-----------------------------------------------------E N G L I S H----------------------------------------------------------------
 
 FED; is a Java program that can detect and analyze facial emotions. All the datas and codes created by Mert Altuntaş.
 
