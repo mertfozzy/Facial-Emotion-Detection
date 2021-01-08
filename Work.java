@@ -2,10 +2,10 @@
 
 /* 
  
-Welcome to the Facial Emotion Detector V5 !! 
+Welcome to the Facial Emotion Detector V6 !! 
  
 If you want to see my progress step by step check it out our Github link!
-https://github.com/mertfozzy/Facial-Emotion-Detection
+https://github.com/mertfozzy/Facial-Emotion-Detector
   
 Enjoy.
 
